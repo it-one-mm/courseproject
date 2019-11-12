@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RelativeLayout"
+    android:background="@drawable/supernatural">
+    <TextView
+        android:id="@+id/txtmoviename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Super Natural"
+        android:textSize="17sp"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"/>
+
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_play"
+        android:background="@color/colorAccent"
+        android:layout_centerInParent="true">
+
+    </ImageView>
+
+</RelativeLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Basic Calculate"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+    <LinearLayout
+
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:android="http://schemas.android.com/apk/res/android" >
+        <TextView
+
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Num 1:"
+            android:textColor="@color/colorAccent"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+        <EditText
+
+            android:id="@+id/edtnum1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Num 1 "
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:android="http://schemas.android.com/apk/res/android" >
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Num 2:"
+            android:textColor="@color/colorAccent"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/edtnum2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Num 2 "
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:android="http://schemas.android.com/apk/res/android" >
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Result:"
+            android:textColor="@color/colorAccent"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/edtresult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Result "
+            />
+    </LinearLayout>
+
+    <Button
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@color/colorAccent"
+        android:drawableLeft="@drawable/ic_done"
+        android:onClick="btncalculate"
+        android:paddingLeft="50dp"
+        android:text="Add " />
+    <Button
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@color/colorAccent"
+        android:drawableLeft="@drawable/ic_done"
+        android:onClick="btncalculate"
+        android:paddingLeft="50dp"
+        android:text="Substract " />
+
+    <Button
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@color/colorAccent"
+        android:drawableLeft="@drawable/ic_done"
+        android:onClick="btnsubstract"
+        android:paddingLeft="50dp"
+        android:text="Substract " />
+
+</LinearLayout>

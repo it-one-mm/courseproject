@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Basic Calculate"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+    <LinearLayout
+
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:android="http://schemas.android.com/apk/res/android" >
+        <TextView
+
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Num 1:"
+            android:textColor="@color/colorAccent"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+        <EditText
+
+            android:id="@+id/edtavgnum1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Num 1 "
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:android="http://schemas.android.com/apk/res/android" >
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Num 2:"
+            android:textColor="@color/colorAccent"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/edtavgnum2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Num 2 "
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:android="http://schemas.android.com/apk/res/android" >
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Num 2:"
+            android:textColor="@color/colorAccent"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/edtavgnum3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Num 3 "
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:android="http://schemas.android.com/apk/res/android" >
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Total:"
+            android:textColor="@color/colorAccent"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+        <EditText
+
+            android:id="@+id/edttotal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Result "
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Average"
+            android:textColor="@color/colorAccent"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/edtavg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Result "
+            />
+    </LinearLayout>
+
+    <Button
+
+        style="@style/ButttonBg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/bu"
+        android:drawableLeft="@drawable/ic_done"
+        android:onClick="calcualateAvg"
+        android:paddingLeft="50dp"
+        android:textColor="@color/colorWhite"
+        android:text="Calculate" />
+
+
+</LinearLayout>
